@@ -51,6 +51,7 @@ checks:
       - SI-3:a
     oval-ids:
     - xccdf_org:ssgproject:content_rule_install_mcafee_antivirus
+    - install_mcafee_antivirus
   oval:com.puppet.forge.simp.simp_options.fips:
     settings:
       parameter: simp_options::fips
@@ -93,6 +94,7 @@ checks:
       - AC-4
     oval-ids:
     - xccdf_org:ssgproject:content_rule_service_firewalld_enabled
+    - service_firewalld_enabled
   oval:com.puppet.forge.simp.simp_options.haveged:
     settings:
       parameter: simp_options::haveged
